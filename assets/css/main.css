@@ -1298,9 +1298,16 @@ Cambio de color de iconos*/
   fill:#149ddd; /* blanco al hacer hover */
 }
 
+#hero img {
+  width: 100%;
+  height: 100vh; /* o ajustá según lo que quieras */
+  object-fit: cover;
+  object-position: right center; /* <- Esto es lo importante */
+  display: block;
+}
+
 @media (max-width: 768px) {
-  .hero {
-    background-position: right center; /* Fija el enfoque a la derecha */
-    background-size: cover;            /* Mantiene el fondo cubriendo toda la sección */
+  #hero img {
+    object-position: right center;
   }
 }
