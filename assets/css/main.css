@@ -1297,3 +1297,10 @@ Cambio de color de iconos*/
 .service-item:hover .pressure-icon svg path {
   fill:#149ddd; /* blanco al hacer hover */
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: right center; /* Fija el enfoque a la derecha */
+    background-size: cover;            /* Mantiene el fondo cubriendo toda la sección */
+  }
+}
